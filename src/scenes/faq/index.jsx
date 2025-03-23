@@ -3,7 +3,7 @@ import Header from "../../components/header";
 import Accordion from "@mui/material/Accordion";
 import AccordionSummary from "@mui/material/AccordionSummary";
 import AccordionDetails from "@mui/material/AccordionDetails";
-import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
+import { ExpandMoreOutlined } from "@mui/icons-material";
 import { tokens } from "../../theme";
 
 const Faq = () => {
@@ -14,7 +14,7 @@ const Faq = () => {
         <Box m="20px">
             <Header title="FAQ" subtitle="Frequently Asked Questions" />
             <Accordion>
-                <AccordionSummary expandIcon={<ExpandMoreIcon />} >
+                <AccordionSummary expandIcon={<ExpandMoreOutlined />} >
                     <Typography color={colors.greenAccent[500]} variant="h5">
                         An important question
                     </Typography>
@@ -28,7 +28,7 @@ const Faq = () => {
             </Accordion>
 
             <Accordion>
-                <AccordionSummary expandIcon={<ExpandMoreIcon />} >
+                <AccordionSummary expandIcon={<ExpandMoreOutlined />} >
                     <Typography color={colors.greenAccent[500]} variant="h5">
                         Another important question
                     </Typography>
@@ -42,7 +42,7 @@ const Faq = () => {
             </Accordion>
 
             <Accordion>
-                <AccordionSummary expandIcon={<ExpandMoreIcon />} >
+                <AccordionSummary expandIcon={<ExpandMoreOutlined />} >
                     <Typography color={colors.greenAccent[500]} variant="h5">
                         your  question
                     </Typography>
@@ -56,7 +56,7 @@ const Faq = () => {
             </Accordion>
 
             <Accordion>
-                <AccordionSummary expandIcon={<ExpandMoreIcon />} >
+                <AccordionSummary expandIcon={<ExpandMoreOutlined />} >
                     <Typography color={colors.greenAccent[500]} variant="h5">
                         some random question
                     </Typography>
@@ -70,7 +70,7 @@ const Faq = () => {
             </Accordion>
 
             <Accordion>
-                <AccordionSummary expandIcon={<ExpandMoreIcon />} >
+                <AccordionSummary expandIcon={<ExpandMoreOutlined />} >
                     <Typography color={colors.greenAccent[500]} variant="h5">
                         The Final question
                     </Typography>
